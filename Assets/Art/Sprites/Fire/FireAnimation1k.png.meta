@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: edba19378926ccf458fbd8db7c84a4e3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 16
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 2
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FireParticle_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1021
+        width: 176
+        height: 281
+      alignment: 9
+      pivot: {x: 0.4850763, y: 0.09806373}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03048decfb1e004d903e29a228efd97
+      internalID: -1612034053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireParticle_1
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1018
+        width: 166
+        height: 328
+      alignment: 9
+      pivot: {x: 0.49999982, y: 0.091594785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7683c6256614145a4907432a532d3c
+      internalID: -1076579753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireParticle_2
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1015
+        width: 171
+        height: 337
+      alignment: 9
+      pivot: {x: 0.46927932, y: 0.08691334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef15fcf6635eaff43a7726d003cad0c7
+      internalID: -1984677593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireParticle_3
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 595
+        width: 171
+        height: 273
+      alignment: 9
+      pivot: {x: 0.48463967, y: 0.12477039}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44f3e933fd2de840b3321df08231ccf
+      internalID: 1385691520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireParticle_4
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 598
+        width: 176
+        height: 286
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.11427446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c57add53e8a45f4bb0226f9585b09fb
+      internalID: -2118527422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireParticle_5
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 606
+        width: 176
+        height: 286
+      alignment: 9
+      pivot: {x: 0.48507586, y: 0.0959065}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53201ac25e2500045b145c3a7af28366
+      internalID: 1962261914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireParticle_6
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 193
+        width: 165
+        height: 271
+      alignment: 9
+      pivot: {x: 0.4522435, y: 0.112309024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2030ee7a8179a49b4afebc1c502bee
+      internalID: -1562570767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireParticle_7
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 185
+        width: 160
+        height: 279
+      alignment: 9
+      pivot: {x: 0.49999982, y: 0.10459681}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd49db449cf9719418f91e6db95e72aa
+      internalID: 1024894380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireParticle_8
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 180
+        width: 179
+        height: 289
+      alignment: 9
+      pivot: {x: 0.41195765, y: 0.118278585}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75b29dd8e422484293d59c5808c7d0a
+      internalID: -2032567972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a56c270e2d19b544c8a3f304f599bebd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      FireParticle_0: -1612034053
+      FireParticle_1: -1076579753
+      FireParticle_2: -1984677593
+      FireParticle_3: 1385691520
+      FireParticle_4: -2118527422
+      FireParticle_5: 1962261914
+      FireParticle_6: -1562570767
+      FireParticle_7: 1024894380
+      FireParticle_8: -2032567972
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
