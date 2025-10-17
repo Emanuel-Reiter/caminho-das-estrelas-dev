@@ -2,7 +2,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EndingDialgoue : MonoBehaviour {
+public class EndingDialgoue : MonoBehaviour
+{
 
     [TextArea] public string[] dialogue;
     public string[] speakerName;
@@ -27,24 +28,30 @@ public class EndingDialgoue : MonoBehaviour {
 
     float endTime = 33.0f;
 
-    private void Start() {
+    private void Start()
+    {
         NextDialogue();
     }
 
-    private void Update() {
-        if(isCreditsActive) {
+    private void Update()
+    {
+        if (isCreditsActive)
+        {
             credits.position += new Vector3(0.0f, creditsSpeed * Time.deltaTime, 0.0f);
             endTime -= Time.deltaTime;
         }
 
-        if (endTime < 0.0f) {
+        if (endTime < 0.0f)
+        {
             SceneManager.LoadScene("TitleScreen");
             SceneManager.UnloadSceneAsync("EndingScene");
         }
     }
 
-    public void NextDialogue() {
-        foreach (GameObject emotion in emotions) {
+    public void NextDialogue()
+    {
+        foreach (GameObject emotion in emotions)
+        {
             emotion.SetActive(false);
         }
 
@@ -55,13 +62,15 @@ public class EndingDialgoue : MonoBehaviour {
         emotions[currentDialogue].SetActive(true);
 
         if (currentDialogue < dialogue.Length - 1) currentDialogue++;
-        else {
+        else
+        {
             nextButton.SetActive(false);
             endButton.SetActive(true);
         }
     }
 
-    public void EndDialogue() {
+    public void EndDialogue()
+    {
         dialogueScreen.SetActive(false);
 
         creditsScreen.SetActive(true);
